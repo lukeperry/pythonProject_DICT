@@ -92,4 +92,3 @@ motto = input("Please enter your motto: ")
 
 #slamBook(name,age,fav_color,fav_movie,mobile_num,motto)
 print("Hi! ", name, ", you are ", age, " years old, your favorite color is ", fav_color, "your favorite movie is, ", fav_movie," your mobile number is ", mobile_num, "your motto is ", motto)
-#update
