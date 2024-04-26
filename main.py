@@ -42,3 +42,18 @@ if 16 < 42:
 x = 7
 y = ("cake")
 print(x)
+
+# Activity 7: Function
+def hello_function():
+
+    print("Hello!")
+hello_function()
+
+hello_function()
+
+def hello_function(name, lastname):
+    print("Hello " + name +" "+ lastname + "!")
+hello_function("Rose", "Gonzales")
+
+
+
