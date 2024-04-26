@@ -56,4 +56,39 @@ def hello_function(name, lastname):
 hello_function("Rose", "Gonzales")
 
 
+def niceDay(name):
+    print("Have a nice day " + name + "!")
+niceDay("Luke")
 
+# Activity 8: Input Function
+
+name = input("Enter your name: ")
+print("Hi, " + name + "!")
+
+num1 = int(input("Please enter 1st number: "))
+num2 = int(input("Please enter 2nd number: "))
+
+print("Your two numbers are:", num1, " and ", num2)
+
+def addNum(num1, num2):
+    total = num1 + num2
+    return (total)
+
+num1 = int(input("Please enter 1st number: "))
+num2 = int(input("Please enter 2nd number: "))
+
+print("Total: ", addNum(num1, num2))
+
+
+#def slam_book():
+name = input("Please enter your name: ")
+age = input("Please enter your age: ")
+fav_color = input("Please enter your favorite color: ")
+fav_movie = input("Please enter your favorite movie: ")
+mobile_num = input("Please enter your mobile number: ")
+motto = input("Please enter your motto: ")
+
+ #   return name, age, fav_color, fav_movie, mobile_num, motto
+
+#slamBook(name,age,fav_color,fav_movie,mobile_num,motto)
+print("Hi! ", name, ", you are ", age, " years old, your favorite color is ", fav_color, "your favorite movie is, ", fav_movie," your mobile number is ", mobile_num, "your motto is ", motto)
